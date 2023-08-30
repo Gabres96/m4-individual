@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "m4-individual",
+  "version": "1.0.0",
+  "description": "Projeto indvidual modulo 4",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Gabres96",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
