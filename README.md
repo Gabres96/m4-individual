@@ -54,4 +54,4 @@ O projeto é separado da seguinte forma:
 # Suporte
 
 Para relatar qualquer tipo de problema, pode-se utilizar o Issues do github no link abaixo.
-https://github.com/iohantc/ferramenta_ordenar_css/issues
+https://github.com/Gabres96/m4-individual/issues
