@@ -1,57 +1,64 @@
 
 # Ferramenta Propriedade CSS
 
-# Descrição do projeto:
+O FERRAMENTA PROPRIEDADE CSS é uma ferramenta de linha de comando que permite aos usuários inserir uma lista de propriedades de CSS e as retorna ordenadas em ordem alfabética.
 
-O objetivo deste projeto é criar uma ferramenta com base nos requisitos do modulo 4 do curso Resilia FullStack.
-# Objetivo do projeto
+# INSTALAÇÃO
 
-Neste projeto em específico, o objetivo é criar uma ferramente que permite ordenar as propriedades de CSS com o objetivo de otimizar a identificação da propriedade.
-#Como executar
+Para usar Ferramenta Propriedade CSS, siga estas etapas:
 
-# Como iniciar o projeto:
+1- Certifique-se de ter o Node.js instalado no seu computador. Você pode baixá-lo em:
+```
+nodejs.org
+```
+2- Clone este repositório para o seu computador usando o seguinte comando no terminal:
+```
+git clone https://github.com/Gabres96/m4-individual.git
+```
+3- Navegue até o diretório do projeto:
+```
+cd css-properties-sorter
+```
 
-Para executar o projeto você precisa seguir o passo a passo de como usar.
-
-Lembre-se de instalar o node.JS este é um requisito fundamental para utilizar a ferramenta.
-
-PRIMEIRO PASSO:
-
-Baixe e instale node.JS
-
-SEGUNDO PASSO:
-
-Clone este repositório utilizando o comando git clone (URL DO PROJETO).
-
-TERCEIRO PASSO:
-
-Entre no diretório do projeto com o comando cd m4-individual
-
-QUARTO PASSO:
-
-Instale as dependencias:
-
+4- Instale as dependências do Node.js executando o seguinte comando:
+```
 npm install
+```
+# PARA USAR:
 
-QUINTO PASSO PASSO:
+Para usar o Ferramenta Propriedade CSS, siga estas etapas:
 
-Executar o programa utilizando o comando:
+1- Abra um terminal no diretório do projeto.
 
-npm start
+2- Execute o software com o seguinte comando:
 
+3- A ferramenta solicitará que você insira propriedades de CSS uma por uma. Digite as propriedades e pressione "Enter" após cada uma. Para encerrar, digite "SAIR".
 
-SEXTO PASSO:
+4- Após encerrar a entrada, a ferramenta exibirá a lista de propriedades CSS ordenadas em ordem alfabética.
 
-Adicione as propriedades CSS que gostaria de ordenar (uma por uma) Assim que finalizado, digite SAIR para que seja encerrado.
+Exemplo de uso:
+```
+node app.js
+```
 
-# Organização do projeto
+3- A ferramenta solicitará que você insira propriedades de CSS uma por uma. Digite as propriedades e pressione "Enter" após cada uma. Para encerrar, digite "SAIR".
 
-O projeto é separado da seguinte forma:
-- app.js onde possui a logica criada no projeto
-- package.json é o arquivo onde possui dados e todas as dependencias utilizadas, este é um arquivo de organização.
-- package-lock.json é  o documento para identificar e manter todas as versões das dependencias do projeto.
+4- Após encerrar a entrada, a ferramenta exibirá a lista de propriedades CSS ordenadas em ordem alfabética.
 
-# Suporte
+# Exemplo de uso:
 
-Para relatar qualquer tipo de problema, pode-se utilizar o Issues do github no link abaixo.
-https://github.com/Gabres96/m4-individual/issues
+```
+Bem-vindo à ferramenta de ordenação de propriedades CSS!
+Digite uma propriedade de CSS ou "SAIR" para finalizar: background
+Digite uma propriedade de CSS ou "SAIR" para finalizar: text-align 
+Digite uma propriedade de CSS ou "SAIR" para finalizar: display-flex
+Digite uma propriedade de CSS ou "SAIR" para finalizar: border
+Digite uma propriedade de CSS ou "SAIR" para finalizar: sair
+Propriedades CSS ordenadas em ordem alfabética:
+BACKGROUND
+BORDER
+DISPLAY-FLEX
+TEXT-ALIGN
+```
+# Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.
