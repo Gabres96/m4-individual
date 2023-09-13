@@ -17,7 +17,7 @@ git clone https://github.com/Gabres96/m4-individual.git
 ```
 3- Navegue até o diretório do projeto:
 ```
-cd css-properties-sorter
+cd m4-individual
 ```
 
 4- Instale as dependências do Node.js executando o seguinte comando:
